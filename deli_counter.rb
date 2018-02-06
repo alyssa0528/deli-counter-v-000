@@ -10,7 +10,6 @@ def line(katz_deli)
     katz_deli.each do |name|
       line_with_names = "#{counter + 1}. #{name} "
       counter += 1 
-      return line_with_names
     end 
       puts "The line is currently: #{line_with_names.join(" ")}"
   end 
