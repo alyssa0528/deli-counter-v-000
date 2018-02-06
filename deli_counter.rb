@@ -7,7 +7,7 @@ def line(katz_deli)
     elsif katz_deli.length > 0 
       counter = 1 
       katz_deli.each do |name|
-      "The line is currently: #{counter}. #{name}"
+      puts "The line is currently: #{counter}. #{name}"
       counter += 1 
     end 
   end
