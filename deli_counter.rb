@@ -13,7 +13,7 @@ def line(katz_deli)
       return line_with_names
     end 
     line_with_names.each do |position_and_name|
-      puts "The line is currently: #{position_and_name}"
+      puts "The line is currently: #{array.join(" ")"
     end
   end 
 end 
