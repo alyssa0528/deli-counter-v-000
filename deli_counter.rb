@@ -6,9 +6,9 @@ def line(katz_deli)
     puts "The line is currently empty."
   elsif katz_deli.length > 0 
     line_with_names = []
-    counter = 1 
+    counter = 0
     katz_deli.each do |name|
-      position_and_name = "#{counter}. #{name} "
+      line_with_names[counter] = "#{counter}. #{name} "
       counter += 1 
       return line_with_names
     end 
