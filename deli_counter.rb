@@ -8,10 +8,10 @@ def line(katz_deli)
     line_with_names = []
     counter = 0
     katz_deli.each do |name|
-      line_with_names[counter] = "#{counter + 1}. #{name} "
+      line_with_names[counter] = "#{counter + 1}. #{name}"
       counter += 1 
     end 
-      puts "The line is currently: " + line_with_names.join
+      puts "The line is currently: " + line_with_names.join(" ")
   end 
 end 
   
