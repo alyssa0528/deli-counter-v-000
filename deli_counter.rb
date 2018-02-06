@@ -14,7 +14,7 @@ def line(katz_deli)
     end 
   end 
     line_with_names.each do |position_and_name|
-    puts "The line is currently: #{position_and_name}."
+    puts "The line is currently: #{position_and_name}"
   end
 end 
   
