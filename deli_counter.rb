@@ -8,7 +8,7 @@ def line(katz_deli)
     line_with_names = []
     counter = 0
     katz_deli.each do |name|
-      line_with_names[counter] = "#{counter + 1}. #{name} "
+      line_with_names = "#{counter + 1}. #{name} "
       counter += 1 
       return line_with_names
     end 
@@ -17,6 +17,8 @@ def line(katz_deli)
     end
   end 
 end 
+
+puts "The line is currently: index+1 name "
   
 def take_a_number(katz_deli, name)
   katz_deli << name 
