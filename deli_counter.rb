@@ -8,7 +8,7 @@ def line(katz_deli)
     line_with_names = []
     counter = 1 
     katz_deli.each do |name|
-      position_and_name = "#{counter}. #{name}"
+      position_and_name = "#{counter}. #{name} "
       counter += 1 
       return line_with_names
     end 
