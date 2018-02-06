@@ -12,9 +12,7 @@ def line(katz_deli)
       counter += 1 
       return line_with_names
     end 
-    line_with_names.each do |position_and_name|
-      puts "The line is currently: #{array.join(" ")}"
-    end
+      puts "The line is currently: #{line_with_names.join(" ")}"
   end 
 end 
   
