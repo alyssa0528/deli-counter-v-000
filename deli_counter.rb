@@ -13,17 +13,15 @@ def line(katz_deli)
       return line_with_names
     end 
     line_with_names.each do |position_and_name|
-      puts "The line is currently: #{array.join(" ")"
+      puts "The line is currently: #{array.join(" ")}"
     end
   end 
 end 
-
-puts "The line is currently: index+1 name "
   
 def take_a_number(katz_deli, name)
   katz_deli << name 
   position = katz_deli.length 
-  puts "Welcome, #{name}. You are number #{position} in line." 
+  puts "Welcome, #{name} You are number #{position} in line."
 end
 
 def now_serving(katz_deli)
